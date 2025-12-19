@@ -1,4 +1,4 @@
-# SaaS Homepage - React + Vite + Tailwind CSS
+#  Homepage - React + Vite + Tailwind CSS
 
 A pixel-perfect implementation of a landing page based on Figma design, built with React, Vite, and Tailwind CSS.
 
@@ -155,4 +155,3 @@ src/
 ## Deployed
 
 This project is Deployed on Netlify.
-
