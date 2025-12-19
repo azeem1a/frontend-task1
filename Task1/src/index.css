@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply font-poppins bg-dark-bg text-text-white overflow-x-hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body.light {
+    @apply bg-white text-gray-900;
+  }
+  
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@layer utilities {
+  .gradient-main {
+    background: linear-gradient(132deg, rgba(255, 152, 152, 1) 0%, rgba(128, 84, 255, 1) 100%);
+  }
+  
+  .gradient-cta {
+    background: linear-gradient(175deg, rgba(255, 152, 152, 1) 0%, rgba(128, 84, 255, 1) 100%);
+  }
+  
+  .gradient-radial {
+    background: radial-gradient(circle at 50% 50%, rgba(34, 34, 40, 1) 0%, rgba(34, 34, 40, 0) 100%);
+  }
+  
+  .gradient-radial-blur {
+    background: radial-gradient(circle at 43% -7%, rgba(73, 73, 85, 1) 0%, rgba(20, 20, 20, 1) 100%);
+  }
+}
+
