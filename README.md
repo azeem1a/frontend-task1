@@ -154,5 +154,6 @@ src/
 
 ## Deployed
 
-This project is Deployed on Netlify.
-Project Link : https://69458949457df8e2a4a844d9--lambent-beignet-ef03f8.netlify.app/
+- This project is Deployed on Netlify.
+
+- Project Link : https://69458949457df8e2a4a844d9--lambent-beignet-ef03f8.netlify.app/
