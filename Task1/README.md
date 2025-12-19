@@ -1,6 +1,6 @@
 # SaaS Homepage - React + Vite + Tailwind CSS
 
-A pixel-perfect implementation of a SaaS landing page based on Figma design, built with React, Vite, and Tailwind CSS.
+A pixel-perfect implementation of a landing page based on Figma design, built with React, Vite, and Tailwind CSS.
 
 ## Features
 
@@ -40,39 +40,27 @@ A pixel-perfect implementation of a SaaS landing page based on Figma design, bui
 - **Vite** - Build tool
 - **Tailwind CSS** - Styling
 - **React Router** - Routing
-- **TypeScript** - Type safety (optional)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ and npm/yarn/pnpm
+- Node.js 18+ and npm
 
 ### Installation
 
 1. Install dependencies:
-```bash
-npm install
-```
+
+npm install or npm i
+
 
 2. Start the development server:
-```bash
+
 npm run dev
-```
+
 
 3. Open your browser and navigate to `http://localhost:5173`
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
 
 ## Project Structure
 
@@ -140,11 +128,22 @@ src/
 ## Routes
 
 - `/` - Homepage
+- <img width="1358" height="631" alt="image" src="https://github.com/user-attachments/assets/3fb36e0b-5b0f-4015-8b1c-1f1be5656d05" />
+
 - `/login` - Login page
+- <img width="1366" height="631" alt="image" src="https://github.com/user-attachments/assets/20a4ddf0-1c86-4df0-b002-3fd5c23df76b" />
+
 - `/signup` - Signup page
+- <img width="1363" height="630" alt="image" src="https://github.com/user-attachments/assets/b3dfd5a9-391e-427c-9952-723099e7c91b" />
+
 - `/dashboard` - Dashboard (protected)
+- <img width="1350" height="631" alt="image" src="https://github.com/user-attachments/assets/c2016890-9d6e-4834-a6a6-c9679f868531" />
+
 - `/users` - Users list (protected)
+- <img width="1347" height="632" alt="image" src="https://github.com/user-attachments/assets/8077c61c-5bd3-4394-bed8-4c844c92efe1" />
+
 - `/settings` - Settings (protected)
+<img width="1350" height="632" alt="image" src="https://github.com/user-attachments/assets/8f70d0b5-c6c4-4fe2-a31a-f3a13e06c5b6" />
 
 ## Notes
 
@@ -153,7 +152,7 @@ src/
 - Theme toggle persists to localStorage
 - User profile settings persist to localStorage
 
-## License
+## Deployed
 
-This project is created for demonstration purposes.
+This project is Deployed on Netlify.
 
